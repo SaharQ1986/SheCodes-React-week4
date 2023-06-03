@@ -59,7 +59,7 @@ function Weather(props) {
         </div>
         <small>
           <a
-            href="https://github.com/SaharQ1986/Vanilla-Weather-Search-Project.git"
+            href="https://github.com/SaharQ1986/SheCodes-React-week4.git"
             target="_blank"
           >
             Open-source code
