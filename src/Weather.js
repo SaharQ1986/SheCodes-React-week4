@@ -59,6 +59,7 @@ function Weather(props) {
         </div>
         <small>
           <a
+            rel="noreferrer"
             href="https://github.com/SaharQ1986/SheCodes-React-week4.git"
             target="_blank"
           >
@@ -90,6 +91,7 @@ function Weather(props) {
         </div>
         <small>
           <a
+            rel="noreferrer"
             href="https://github.com/SaharQ1986/SheCodes-React-week4.git"
             target="_blank"
           >
