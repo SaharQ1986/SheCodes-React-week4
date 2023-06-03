@@ -70,22 +70,33 @@ function Weather(props) {
     );
   } else {
     return (
-      <div className="container">
-        {form}
-        <div className="row">
-          <div className="col-md-6">
-            <p>{props.city}</p>
-            <p>Temperature: {Math.round(props.temp)}°C</p>
-            <p>Description: {props.desc}</p>
-            <p>
-              <img src={props.icon} alt={props.description} />
-            </p>
-          </div>
-          <div className="col-md-6 control">
-            <p>Humidity: {props.humidity}%</p>
-            <p>Wind: {props.wind}km/h</p>
+      <div>
+        <div className="container">
+          {form}
+          <div className="row">
+            <div className="col-md-6">
+              <p>{props.city}</p>
+              <p>Temperature: {Math.round(props.temp)}°C</p>
+              <p>Description: {props.desc}</p>
+              <p>
+                <img src={props.icon} alt={props.description} />
+              </p>
+            </div>
+            <div className="col-md-6 control">
+              <p>Humidity: {props.humidity}%</p>
+              <p>Wind: {props.wind}km/h</p>
+            </div>
           </div>
         </div>
+        <small>
+          <a
+            href="https://github.com/SaharQ1986/SheCodes-React-week4.git"
+            target="_blank"
+          >
+            Open-source code
+          </a>
+          by Sahar.Q
+        </small>
       </div>
     );
   }
